@@ -1,0 +1,25 @@
+h2 {
+    font-size:23px;
+}
+
+.btn-warning {
+ animation-name: Trial;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes Trial {
+    from {background-color: orange;}
+    to {background-color: red;}
+}
+
+canvas {
+    animation-name: Trying;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   }
+   
+   @keyframes Trying {
+       from {box-shadow:1px 1px 40px orange; }
+       to {box-shadow:1px 1px 40px red;}
+   }
